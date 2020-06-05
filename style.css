@@ -1,0 +1,89 @@
+.navbar {
+    background-color: #B71C1C  !important;
+    size: 30px !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: bold !important;
+}
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 32px !important;
+}
+.fa-clock-o{
+    font-size: 25px !important;
+  
+    
+}
+.fa-truck,.fa-user-o,.fa-thumbs-up{
+    font-size: 54px !important;
+    margin-right: 10px;
+    color:#B71C1C !important ;
+
+    
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px ;
+    height: 100px;
+    background-color: #fff ;
+    box-shadow: 2px 4px 5px gray ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+h3{
+    color:#B71C1C ;
+}
+.maincard{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newArrivals{
+    margin-top: 50px !important;
+}
+.card{
+    width: 250px;
+    height: auto !important;
+    margin-bottom: 5px;
+    box-shadow: 2px 4px 5px gray ;
+}
+/* .card-text{
+    font-weight: bold;
+} */
+
+.btn-primary{
+    width: 100%;
+    background-color:#B71C1C  ;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color:#B71C1C ;
+    margin: 20px;
+}
+.heading > h1 {
+    text-shadow: 2px 2px 4px black;
+}
+.footer{
+    width: 100%;
+    background-color:#B71C1C ;
+    height:80%;
+    
+}
+.footer > div{
+    text-align: center !important;
+}
+h4{
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+   
+  }
